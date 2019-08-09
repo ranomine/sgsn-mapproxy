@@ -44,12 +44,6 @@ Author useAuthor: 'RHHack' during: [
     [true] whileTrue:
         [self relinquishProcessorForMicroseconds: 80000]'.
 
-    "Disable Nagle for the Mongo connections. Don't wait for the TCP DACK before sending
-    the getLastError."
-    Mongo compile: 'open
-	stream := GratuitousIncompatibilities socketStreamHost: host port: port.
-	stream socket setOption: ''TCP_NODELAY'' value: 1.
-	authCache := nil'
 ].
 
 
