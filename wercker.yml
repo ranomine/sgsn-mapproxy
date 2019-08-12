@@ -32,7 +32,7 @@ deploy:
       password: $PASSWORD
       tag: latest
       cmd: /startup.sh
-      ports: "5900"
+      ports: "5900,23501"
       repository: ranomine/mapproxy
 
 unit_tests:
