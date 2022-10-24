@@ -4,4 +4,4 @@ setUpPackages: spec
 		package: #MAPProxy
 		with: [ spec
 				requires:
-					#('OsmoNetwork' 'OsmoLogging' 'TCAP' 'OsmoGSM' 'RFB') ].
+					#('OsmoNetwork' 'OsmoLogging' 'TCAP' 'OsmoGSM') ].
