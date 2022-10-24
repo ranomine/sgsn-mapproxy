@@ -11,10 +11,10 @@ setUpDependencies: spec
 				loads: #('default' 'camel') ].
 	spec
 		baseline: 'OsmoLogging'
-		with: [ spec repository: 'github://moiji-mobile/osmocom-logging:v7/source' ].
+		with: [ spec repository: 'github://moiji-mobile/osmocom-logging:v8/source' ].
 	spec
 		baseline: 'OsmoNetwork'
-		with: [ spec repository: 'github://moiji-mobile/osmocom-network:master/source' ].
+		with: [ spec repository: 'github://moiji-mobile/osmocom-network:v10/source' ].
 	spec
 		baseline: 'OsmoCrashReportClient'
 		with: [ spec
@@ -22,7 +22,7 @@ setUpDependencies: spec
 	spec
 		baseline: 'ZincHTTPComponents'
 		with: [ spec
-				repository: 'github://svenvc/zinc:v3.0.1/repository';
+				repository: 'github://svenvc/zinc:v4/repository';
 				loads: #('REST') ].
 	spec
 		baseline: 'OsmoGSM'
