@@ -7,7 +7,7 @@ setUpDependencies: spec
 	spec
 		baseline: 'TCAP'
 		with: [ spec
-				repository: 'github://moiji-mobile/tcap:v12/source';
+				repository: 'github://ranomine/tcap:ba1bb37/source';
 				loads: #('default' 'camel') ].
 	spec
 		baseline: 'OsmoLogging'
