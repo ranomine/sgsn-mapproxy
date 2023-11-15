@@ -22,7 +22,7 @@ setUpDependencies: spec
 	spec
 		baseline: 'ZincHTTPComponents'
 		with: [ spec
-				repository: 'github://svenvc/zinc:v4/repository';
+				repository: 'github://svenvc/zinc:v5/repository';
 				loads: #('REST') ].
 	spec
 		baseline: 'OsmoGSM'
