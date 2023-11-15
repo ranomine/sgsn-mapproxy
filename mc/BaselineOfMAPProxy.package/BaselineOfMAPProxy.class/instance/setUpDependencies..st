@@ -7,7 +7,7 @@ setUpDependencies: spec
 	spec
 		baseline: 'TCAP'
 		with: [ spec
-				repository: 'github://ranomine/tcap:ba1bb37/source';
+				repository: 'github://ranomine/tcap:features/pharo10/source';
 				loads: #('default' 'camel') ].
 	spec
 		baseline: 'OsmoLogging'
