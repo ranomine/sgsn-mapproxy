@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "MAPProxy",
+	"category" : "MAPProxy-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"sgsnAddress",
+		"sgsnNumber"
+	],
+	"name" : "MAPProxySGSN",
+	"type" : "normal"
+}

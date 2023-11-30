@@ -1,0 +1,14 @@
+{
+	"commentStamp" : "",
+	"super" : "MAPProxy",
+	"category" : "MAPProxy-Core",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"vlrNumber",
+		"mscNumber"
+	],
+	"name" : "MAPProxyVLR",
+	"type" : "normal"
+}

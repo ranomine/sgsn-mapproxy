@@ -1,6 +1,6 @@
 as yet unclassified
 setUp
-	mapProxy := MAPProxy new.
+	mapProxy := MAPProxySGSN new.
 	readDelegate := MAPProxyReadDelegate new.
 	readDelegate onNewConnection: OsmoMessageSocket new.
 	readDelegate connection readDelegate: readDelegate.
@@ -16,7 +16,7 @@ setUp
 		asn1Model: MAPProxy asn1Model.
 
 	mapProxy endPoint: vlrEndPoint.
-	mapProxy vlrNumber: '123'.
+	mapProxy sgsnNumber: '123'.
 	mapProxy sgsnAddress: #[4 127 0 0 1].
 	readDelegate mapProxy: mapProxy.
 

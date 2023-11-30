@@ -9,10 +9,8 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"endPoint",
-		"vlrNumber",
 		"gts",
 		"gsupServer",
-		"sgsnAddress",
 		"logger"
 	],
 	"name" : "MAPProxy",

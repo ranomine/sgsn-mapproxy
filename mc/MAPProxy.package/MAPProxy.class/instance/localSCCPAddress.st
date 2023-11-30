@@ -1,4 +1,4 @@
 as yet unclassified
-purgeMS: aRequest for: aDelegate
+localSCCPAddress
 
 	self subclassResponsibility
