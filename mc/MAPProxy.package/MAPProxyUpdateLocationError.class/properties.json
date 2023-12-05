@@ -1,0 +1,11 @@
+{
+	"commentStamp" : "",
+	"super" : "MAPProxyMessageBase",
+	"category" : "MAPProxy-Messages",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [ ],
+	"name" : "MAPProxyUpdateLocationError",
+	"type" : "normal"
+}

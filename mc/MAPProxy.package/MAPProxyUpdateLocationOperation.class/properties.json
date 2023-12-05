@@ -1,0 +1,18 @@
+{
+	"commentStamp" : "",
+	"super" : "MAPProxyOperation",
+	"category" : "MAPProxy-Operations",
+	"classinstvars" : [ ],
+	"pools" : [ ],
+	"classvars" : [ ],
+	"instvars" : [
+		"pdpInfos",
+		"pdpInfoComplete",
+		"msisdn",
+		"chargingCharacteristics",
+		"vlrNumber",
+		"mscNumber"
+	],
+	"name" : "MAPProxyUpdateLocationOperation",
+	"type" : "normal"
+}
