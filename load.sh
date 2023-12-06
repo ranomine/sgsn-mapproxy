@@ -10,6 +10,7 @@ mv Pharo.changes MAPProxy.changes
 
 echo "Loading code into the image"
 ./pharo MAPProxy.image eval --save "Metacello new baseline: 'MAPProxy'; onConflictUseIncoming; repository: 'filetree://$PWD/mc'; load."
+./pharo MAPProxy.image eval --save "OsmoDebugErrorHandler install"
 
 echo "Initializing the TCAP model"
 ./pharo MAPProxy.image eval --save "MAPProxy asn1Model"
