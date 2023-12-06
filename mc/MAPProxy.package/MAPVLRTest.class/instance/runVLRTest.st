@@ -50,5 +50,3 @@ runVLRTest
 				result: result"
 			 ];
 		start.
-
-	conn stop
