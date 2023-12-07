@@ -5,6 +5,9 @@ setUpDependencies: spec
 		baseline: 'OsmoCore'
 		with: [ spec repository: 'github://moiji-mobile/osmocom-core:v9/source' ].
 	spec
+	   baseline: 'ShortMessage'
+	   with: [ spec repository: 'github://ranomine/short-message:master/source' ].
+	spec
 		baseline: 'TCAP'
 		with: [ spec
 				repository: 'github://ranomine/tcap:pharo10/source';
