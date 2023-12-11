@@ -11,7 +11,8 @@
 		"msisdn",
 		"chargingCharacteristics",
 		"vlrNumber",
-		"mscNumber"
+		"mscNumber",
+		"serviceCentreAddress"
 	],
 	"name" : "MAPProxyMOForwardSMOperation",
 	"type" : "normal"

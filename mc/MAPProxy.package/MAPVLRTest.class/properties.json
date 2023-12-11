@@ -7,7 +7,12 @@
 	"classvars" : [ ],
 	"instvars" : [
 		"mapProxy",
-		"conn"
+		"conn",
+		"tcap",
+		"imsi",
+		"serviceCentreAddress",
+		"vlrNumber",
+		"mscNumber"
 	],
 	"name" : "MAPVLRTest",
 	"type" : "normal"

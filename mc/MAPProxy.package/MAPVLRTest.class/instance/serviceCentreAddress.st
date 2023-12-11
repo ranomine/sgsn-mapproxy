@@ -1,0 +1,4 @@
+initialization
+serviceCentreAddress
+
+	^ serviceCentreAddress
