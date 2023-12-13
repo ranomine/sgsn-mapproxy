@@ -1,14 +1,31 @@
 initialization
 sendMOSMS
 
-	| gt op |
+	| op myCalledSCCPAddress myCallingSCCPAddress |
 	
-	gt := mapProxy gtForIMSI: imsi.
+	myCallingSCCPAddress := (SCCPAddress createWith: SCCPAddress ssnMSC)
+		  routedOnSSN: false;
+		  gtiFromAddr: (SCCPGlobalTitleTranslation new
+				   nature: SCCPGlobalTitle naiInternationalNumber;
+				   plan: SCCPGlobalTitle npISDN;
+				   addr: mapProxy mscNumber;
+				   translation: 0;
+				   yourself);
+		  yourself.
+	myCalledSCCPAddress := (SCCPAddress createWith: SCCPAddress ssnMSC)
+		  routedOnSSN: false;
+		  gtiFromAddr: (SCCPGlobalTitleTranslation new
+				   nature: SCCPGlobalTitle naiInternationalNumber;
+				   plan: SCCPGlobalTitle npISDN;
+				   addr: self serviceCentreAddress;
+				   translation: 0;
+				   yourself);
+		  yourself.		
 	op := MAPProxyMOForwardSMOperation new.
 	op
 		dialogue: mapProxy newDialogue;
-		callingSCCPAddress: (mapProxy callingSCCPAddress: gt callingSSN);
-		calledSCCPAddress: (mapProxy calledSCCPAddress: (gt prepare: imsi));
+		callingSCCPAddress: myCallingSCCPAddress;
+		calledSCCPAddress: myCalledSCCPAddress;
 		imsi: imsi;
 		serviceCentreAddress: self serviceCentreAddress;
 		mscNumber: mapProxy mscNumber;
