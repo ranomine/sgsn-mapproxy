@@ -1,1 +1,1 @@
-SystemOrganization addCategory: #BaselineOfMAPProxy!
+self packageOrganizer ensurePackage: #BaselineOfMAPProxy withTags: #()!
