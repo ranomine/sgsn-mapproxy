@@ -1,6 +1,1 @@
-SystemOrganization addCategory: #MAPProxy!
-SystemOrganization addCategory: 'MAPProxy-Core'!
-SystemOrganization addCategory: 'MAPProxy-Logging'!
-SystemOrganization addCategory: 'MAPProxy-Messages'!
-SystemOrganization addCategory: 'MAPProxy-Operations'!
-SystemOrganization addCategory: 'MAPProxy-Tests'!
+self packageOrganizer ensurePackage: #MAPProxy withTags: #(#Core #Logging #Messages #Operations #Tests)!
