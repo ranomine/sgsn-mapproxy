@@ -1,4 +1,4 @@
-*RoamingHub
+*MAPProxy
 configureModel
 "Extend the original method to update to specifics of how pharo13 accesses receiver of #packageNamed: message 
 pharo7: RPackage organizer
